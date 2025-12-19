@@ -1,0 +1,7 @@
+To reproduce the experiments, you need the following libraries:
+- Python 3.8+
+- TensorFlow
+- Transformers (Hugging Face)
+- Imbalanced-learn
+- Gensim
+- Scikit-learn
