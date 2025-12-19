@@ -13,7 +13,7 @@ The repository relies on Jupyter Notebooks (`.ipynb`) to ensure transparency of 
 
 **Clone the repository:**
    ```bash
-   git clone [https://github.com/citakamaliaa/hoax-news-classification.git](https://github.com/citakamaliaa/hoax-news-classification.git)
+   git clone [https://github.com/citakamaliaa/indonesian-hoax-classification-smote.git](https://github.com/citakamaliaa/indonesian-hoax-classification-smote.git)
    cd hoax-news-classification
 ```
 
