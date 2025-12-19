@@ -13,3 +13,33 @@ The repository relies on Jupyter Notebooks (`.ipynb`) to ensure transparency of 
    ```bash
    git clone [https://github.com/citakamaliaa/hoax-news-classification.git](https://github.com/citakamaliaa/hoax-news-classification.git)
    cd hoax-news-classification
+```
+
+## Install dependencies
+It is recommended to use a virtual environment or Google Colab.
+ ```bash
+pip install -r requirements.txt
+```
+
+## Usage Instructions
+Since the code is provided in Jupyter Notebook format, you can run the experiments interactively.
+
+1. Choose a Scenario: Select the notebook corresponding to the model and loss function you wish to evaluate (see the table above).
+2. Open the Notebook:
+   - Local: Run jupyter lab or jupyter notebook in your terminal and open the file.
+   - Cloud: Upload the .ipynb file to Google Colab.
+3. Load Data:
+  - Ensure the dataset (.csv) is placed in the correct directory as specified in the notebook, or upload it to the Colab session.
+  - The notebooks include scripts (gdown) to automatically download the pre-trained Word2Vec model (idwiki_word2vec_768_new_lower.model).
+4. Run All Cells: Execute the cells sequentially to perform preprocessing, SMOTE oversampling, training, and evaluation.
+
+## Evaluation
+The notebooks automatically generate the following metrics after training:
+- Classification Report: Precision, Recall, F1-Score (Macro & Weighted).
+- Confusion Matrix: Visualization of True Positives, False Positives, etc.
+- Training Logs: Graphs showing Accuracy and Loss over epochs.
+
+## Citation
+
+## License
+This project is licensed under the MIT License.
